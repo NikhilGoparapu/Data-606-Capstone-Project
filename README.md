@@ -20,5 +20,21 @@ In total there are 8 jupyter notebooks.<br>
 
 <h4>Data Preprocessing and Exploratory Data Analysis:</h4>
 <ul>
-<li> <b>Malware Detection.ipynb :</b> This notebook primarily consists of dataset preperation and Exploratory Data Analysis. I have used this notebook to combine all the intermediate datasets which are extracted during feature engineering.</li>
+<li> <b>EDA and Data Preprocessing.ipynb :</b> This notebook primarily consists of dataset preperation and Exploratory Data Analysis. I have used this notebook to combine all the intermediate datasets which are extracted during feature engineering.</li>
 </ul>
+
+<h4>Feature Engineering</h4>
+<ul>
+    <li><b>Extracting Unigrams from Byte File.ipynb :</b> Using this notebook I have extracted unigram features from the byte files and created <i>unigrams.csv</i> dataset. This dataset consists of 256 columns each column representing unique hexadecimal value and one column for missing values.</li>
+
+<li><b>Extracting Bigrams from Byte File.ipynb :</b> Using this notebook I have extracted bigram features from the byte files.</li>
+
+<li><b>Extracting Image Features from ASM files 1-5.ipynb: </b> I have used these 5 notebooks to extract images from asm files. I have used the top 800-pixel values of these images as features in my dataset</li>
+</ul>
+
+<h4>Modeling</h4>
+<ul>
+    <li>
+<b>Modeling.ipynb: </b> In this notebook I have split the final_dataset.csv into training data and test data and trained an XG Boost model on the training data and evaluated it on the test data.</li>
+<ul>
+   

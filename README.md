@@ -16,3 +16,7 @@ The dataset is available to download from this <a href="https://www.kaggle.com/c
 * A file may belong to any of the following 9 classes of malware: Ramnit, Lollipop, Kelihos_ver3, Vundo, Simda, Tracur, Kelihos_ver1, Obfuscator.ACY, Gatak.<br>
 
 <h3>Code Files</h3>
+In total there are 8 jupyter notebooks.<br>
+
+<h4>Data Preprocessing and Exploratory Data Analysis:</h4>
+* <b>Malware Detection.ipynb :</b> This notebook primarily consists of dataset preperation and Exploratory Data Analysis. I have used this notebook to combine all the intermediate datasets which are extracted during feature engineering.

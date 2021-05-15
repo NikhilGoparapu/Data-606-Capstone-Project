@@ -36,7 +36,7 @@ In total there are 8 jupyter notebooks.<br>
 <ul>
     <li>
 <b>Modeling.ipynb: </b> In this notebook I have split the final_dataset.csv into training data and test data and trained an XG Boost model on the training data and evaluated it on the test data.</li>
-<ul>
+</ul>
  
 <h3>Data</h3>
 * This folder has a link to original data set which consists of raw byte files ans asm files. 

@@ -39,6 +39,7 @@ In total there are 8 jupyter notebooks.<br>
 </ul>
  
 <h3>Data</h3>
-* This folder has a link to original data set which consists of raw byte files ans asm files. 
-* It has a sub folder names <b>Preprocessed Data</b> which has all the intermediate datasets in the compressed format which created during feature engineering.
-* It also contains a <i>Labels.csv</i> file which consists the class label for each file.
+
+* This folder has a link to original data set which consists of raw byte files ans asm files.<br>
+* It has a sub folder names <b>Preprocessed Data</b> which has all the intermediate datasets in the compressed format which created during feature engineering.<br>
+* It also contains a <i>Labels.csv</i> file which consists the class label for each file.<br>

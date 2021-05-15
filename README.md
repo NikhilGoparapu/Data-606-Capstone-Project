@@ -43,3 +43,4 @@ In total there are 8 jupyter notebooks.<br>
 * This folder has a link to original data set which consists of raw byte files ans asm files.<br>
 * It has a sub folder names <b>Preprocessed Data</b> which has all the intermediate datasets in the compressed format which created during feature engineering.<br>
 * It also contains a <i>Labels.csv</i> file which consists the class label for each file.<br>
+* Here is the <a href="https://drive.google.com/file/d/1Yi3JT78a0B8eJ5XHcmG74y1cN68RWHcT/view?usp=sharing">link</a> to the zipped folder which contains the images generated from the asm files using <b><i>Extracting Image Features from ASM files 1-5.ipynb</i></b><br>

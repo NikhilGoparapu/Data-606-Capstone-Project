@@ -8,7 +8,7 @@ A detailed description of my project can be viewed <a href="https://sites.google
 The goal of this project to extract useful features from raw bytes file and asm file and build a supervised machine learning model on top of those features to classify a malware file.<br>
 
 
-<h3>Dataset:</h3>
+<h3>Dataset Description:</h3>
 The dataset is available to download from this <a href="https://www.kaggle.com/c/malware-classification/data">link</a>. Microsoft has open-sourced the dataset as a part of a competition on Kaggle. It can be used for educational and research purposes. <br>
 
 * The dataset consists of 10,868 bytes file in a hexadecimal representation and 10,868 asm files.<br>
@@ -37,4 +37,8 @@ In total there are 8 jupyter notebooks.<br>
     <li>
 <b>Modeling.ipynb: </b> In this notebook I have split the final_dataset.csv into training data and test data and trained an XG Boost model on the training data and evaluated it on the test data.</li>
 <ul>
-   
+ 
+<h3>Data</h3>
+* This folder has a link to original data set which consists of raw byte files ans asm files. 
+* It has a sub folder names <b>Preprocessed Data</b> which has all the intermediate datasets in the compressed format which created during feature engineering.
+* It also contains a <i>Labels.csv</i> file which consists the class label for each file.
